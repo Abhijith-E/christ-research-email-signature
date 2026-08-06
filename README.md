@@ -23,11 +23,8 @@ The design adheres to the "Quiet Prestige" aesthetic used by faculty at top-tier
 ## Pre-Installation Steps
 
 1. **Fill in Placeholders:** Open `index.html` (and/or `outlook.html`) in a basic text editor (like VS Code, Notepad, or TextEdit) and replace `[[FILL ME: Official Email]]` with your actual email address.
-2. **Host the Logo Image:** 
-   Email clients *cannot* embed local images directly from your computer. You must upload `christ-logo-transparant.png` (or your final CHRIST University logo) to a public server. 
-   - **Recommended:** Upload it to an AWS S3 bucket, a personal domain, or use a reliable image hosting service (like Imgur). 
-   - **Alternative:** You can upload it to GitHub and use the *Raw* URL (e.g., `https://raw.githubusercontent.com/.../christ-logo-transparant.png`).
-   - Once uploaded, replace `https://example.com/christ-logo-transparant.png` in the HTML files with your actual public URL.
+2. **Logo Hosting (Done):** 
+   - The HTML is already configured to pull the official `christ-logo-transparant.png` securely from your GitHub repository using its raw URL. You do not need to host it elsewhere.
 
 ---
 
